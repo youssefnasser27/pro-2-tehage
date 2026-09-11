@@ -40,3 +40,21 @@ button{
     color: white;
     background-color: #222;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Default styles for large laptops and computers */
+.sidebar {
+  float: left;
+  width: 30%;
+}
+
+/* For tablets and smaller screens (768px wide or less) */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+}
